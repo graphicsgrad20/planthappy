@@ -1,0 +1,88 @@
+body {
+  background-color: #a9e4d1;
+  margin: 0 15%;
+}
+h1 {
+  font-family: "Rubik Microbe";
+  font-size: 45px;
+  background-color: #bfe5d9;
+  background-clip: padding-box;
+  border: 5px solid #259b2c;
+  padding: 15px 15px 15px 15px;
+}
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+h3 {
+  color: #1b6e20;
+  font-size: 25px;
+  text-align: center;
+}
+h4 {
+  color: #1b6e20;
+  font-size: 20px;
+  text-align: center;
+}
+form {
+  list-style-type: none;
+}
+ul {
+  list-style-type: none;
+}
+li a {
+  display: block;
+  color: #259b2c;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #fff;
+}
+a {
+  color: #259b2c;
+  text-decoration: none;
+}
+a:active {
+  color: #000;
+}
+p {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+footer {
+  color: #1b6e20;
+  text-align: center;
+  border-top: 2px solid #d1f6ea;
+}
+.imgformat {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+.imgformat2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+#menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #bfe5d9;
+  border: 2px solid #d1f6ea;
+}
+.menu2 {
+    float: left;
+}
+.adjust {
+  font-size: 20px;
+  text-align: center;
+}
