@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Planting Happiness Contact</title>
+  <link href="http://fonts.googleleapis.com/css?family=Rubik+Microbe" rel="stylesheet">
+  <link rel="stylesheet" href="planthappystyles.css">
+</head>
+<body>
+  <h1><img src="images/seedling.svg" alt="logo" height="50" width="50">Planting Happiness<img src="images/seedling.svg" alt="logo" height="50" width="50"></h1>
+  <nav>
+      <ul id="menu" style="list-style-type: none;">
+        <li class="menu2"><a href="index.html">Home</a></li>
+        <li class="menu2"><a href="about.html">About</a></li>
+        <li class="menu2"><a href="news.html">News</a></li>
+        <li class="menu2"><a href="adopt.html">Adopt</a></li>
+        <li class="menu2"><a href="contact.html">Contact</a></li>
+        <li class="menu2"><a href="donate.html">Donate</a></li>
+      </ul>
+  </nav>
+<h2>Donate/Adopt</h2>
+<form action="thanks.php" method="POST">
+<h3>Adopt</h3>
+<fieldset>
+  <legend>Do You Want to Adopt?</legend>
+  <ul>
+    <li><label><input type="radio" name="adopt" value="yes">Yes!</label></li>
+    <li><label><input type="radio" name="adopt" value="no" checked>No.</label></li>
+  </ul>
+</fieldset>
+<fieldset>
+  <legend>Type of Plant(s)</legend>
+  <ul>
+    <li><label><input type="checkbox" name="planttype" value="cacti">Cacti</label></li>
+    <li><label><input type="checkbox" name="planttype" value="succulent">Succulent</label></li>
+    <li><label><input type="checkbox" name="planttype" value="flowers">Flower</label></li>
+    <li><label><input type="checkbox" name="planttype" value="flowers">Speciality Flowers</label></li>
+  </ul>
+</fieldset>
+<fieldset>
+  <legend>How Many?</legend>
+  <ul>
+    <li><label for="form-plant-amount"></label><br>
+        <textarea name="plant amount" rows="4" cols="60" maxlength="400" placeholder="ex: Flowers-2; Cacti-4" id="form-plant-amount"></textarea>
+    </li>
+  </ul>
+  </fieldset>
+  <fieldset>
+    <legend>Name Your Plant(s)!</legend>
+    <ul>
+      <li><label for="form-names">Name(s):</label><br>
+          <textarea name="names" rows="4" cols="60" maxlength="400" placeholder="Separate names with semicolons." id="form-names"></textarea>
+      </li>
+    </ul>
+  </fieldset>
+
+<h3>Donate</h3>
+<fieldset>
+  <legend>Donate?</legend>
+  <ul>
+    <li><label><input type="radio" name="donate" value="yes">Yes!</label></li>
+    <li><label><input type="radio" name="donate" value="no" checked>No.</label></li>
+    <li><label for="form-donation-amount">Amount:</label><input type="number" name="donation-amount" placeholder="0.00" id="form-donation-amount"></li>
+  </ul>
+  </fieldset>
+<p><a href="thanks.html"><input type="submit" value="Submit"></a><input type="reset" value="Clear Form"></p>
+</form>
+
+<footer>
+  <p><a href="index.html">Home </a>|<a href="about.html"> About</a> |<a href="news.html"> News</a> |<a href="adopt.html"> Adopt</a> |<a href="contact.html"> Contact</a> |<a href="donate.html"> Donate</a></p>
+  <p>All content copyright &copy; 2022, designed by Nadianne P..</p>
+</footer>
+
+</body>
+</html>
